@@ -1,0 +1,19 @@
+# Ignore WordPress core
+wp-admin/
+wp-includes/
+
+# Ignore uploads and cache
+wp-content/uploads/
+wp-content/cache/
+
+# Ignore configs and secrets
+wp-config.php
+.env
+sql/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
